@@ -4,19 +4,19 @@ export default function About() {
   return (
     <div className="min-h-screen bg-gray-100 flex items-center justify-center p-6">
       <div className="space-y-4">
-        <Card title="Simple Tailwind Card">
+        <TailwindCard title="Simple Tailwind Card">
         This is a clean and beautiful card component made with Tailwind CSS.
 
         <div className="mt-4">
           <TailwindButton>Learn More</TailwindButton>
         </div>
-      </Card>
-      <Card title="Dilchan Tailwind Card">
-        This is a clean and beautiful card component made with Tailwind CSS.
+      </TailwindCard>
+      <TailwindCard title="Dilchan Tailwind Card">
+         I have a pen.
          <div className="mt-4">
           <Button>Learn More</Button>
         </div>
-      </Card>
+      </TailwindCard>
       </div>
     </div>
   );
@@ -45,7 +45,7 @@ function TailwindButton({ children }: any) {
 }
 
 
-function Card({ title, children }:any) {
+function TailwindCard({ title, children }:any) {
   return (
     <div
       className="
