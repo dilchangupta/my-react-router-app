@@ -12,7 +12,7 @@ export default function About() {
         </div>
       </TailwindCard>
       <TailwindCard title="Dilchan Tailwind Card">
-         I have a pen.
+         I have a pen. Dilchan Branch.
          <div className="mt-4">
           <Button>Learn More</Button>
         </div>
